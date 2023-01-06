@@ -1,0 +1,15 @@
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\bin\Debug\net6.0\Repositories.deps.json
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\bin\Debug\net6.0\Repositories.dll
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\bin\Debug\net6.0\Repositories.pdb
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\bin\Debug\net6.0\Entity.dll
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\bin\Debug\net6.0\Entity.pdb
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.dll
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\Repositories.pdb
+C:\Users\m_243\OneDrive\Desktop\microsoft documentation\.net core\JobApplicationFormWeb\Repositories\obj\Debug\net6.0\ref\Repositories.dll

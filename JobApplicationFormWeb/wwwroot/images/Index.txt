@@ -1,0 +1,59 @@
+using Entity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
+using System.IO;
+using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
+
+namespace JobApplicationForm.Pages
+{
+    public class IndexModel : PageModel
+    {
+        private readonly ILogger<IndexModel> _logger;
+
+        public IndexModel(ILogger<IndexModel> logger)
+        {
+            _logger = logger;
+        }
+
+        public void OnGet()
+        {
+
+        }
+
+        public List<JobApplicationExpereince> Experinces { get; set; }
+
+        [BindProperty]
+        public IFormFile profileImage { get; set; }
+        public void OnPost()
+        {
+            var jobApplication = new JobApplication();
+            jobApplication.name = Request.Form["name"];
+            jobApplication.BirthOfDate = DateTime.Parse(Request.Form["date"]);
+            jobApplication.Experince = Request.Form["expJson"];
+            Experinces = JsonConvert.DeserializeObject<List<JobApplicationExpereince>>(jobApplication.Experince);
+            // Save Image in wwwroot;
+            var fileName = Path.GetFileName(profileImage.FileName);
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\images\", fileName);
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                profileImage.CopyTo(fileStream);
+            }
+            jobApplication.ProfileImage = fileName;
+
+            foreach (var item in Experinces)
+            {
+                Regex regex = new Regex(@"^[\w/\:.-]+;base64,");
+                var base64File = regex.Replace(item.experienceFile, string.Empty);
+                Byte[] bytes = Convert.FromBase64String(base64File);
+                var fileName2 = item.fileName;
+                var filePath2 = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\Documents\", item.fileName);
+                System.IO.File.WriteAllBytes(filePath2, bytes);
+                item.experienceFile = "";
+            }
+            jobApplication.Experince = JsonConvert.SerializeObject(Experinces);
+
+        }
+    }
+}

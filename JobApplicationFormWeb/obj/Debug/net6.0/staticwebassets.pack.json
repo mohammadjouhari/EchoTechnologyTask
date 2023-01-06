@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JobApplicationFormWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\JobApplicationFormWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\Expenses.txt",
+      "PackagePath": "staticwebassets\\documents\\Expenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\IndexView.txt",
+      "PackagePath": "staticwebassets\\documents\\IndexView.txt"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\MainProfile2.jpg",
+      "PackagePath": "staticwebassets\\documents\\MainProfile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\MainProfile4.jpg",
+      "PackagePath": "staticwebassets\\documents\\MainProfile4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\MohammadJouhariCV.pdf",
+      "PackagePath": "staticwebassets\\documents\\MohammadJouhariCV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\daily taskes.txt",
+      "PackagePath": "staticwebassets\\documents\\daily taskes.txt"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\documents\\th.jpg",
+      "PackagePath": "staticwebassets\\documents\\th.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\images\\MainProfile.jpeg",
+      "PackagePath": "staticwebassets\\images\\MainProfile.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\images\\MainProfile4.jpg",
+      "PackagePath": "staticwebassets\\images\\MainProfile4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\images\\th.jpg",
+      "PackagePath": "staticwebassets\\images\\th.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\js\\global.js",
+      "PackagePath": "staticwebassets\\js\\global.js"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\JobApplicationFormWeb\\JobApplicationFormWeb\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.JobApplicationFormWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.JobApplicationFormWeb.props",
+      "PackagePath": "build\\JobApplicationFormWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.JobApplicationFormWeb.props",
+      "PackagePath": "buildMultiTargeting\\JobApplicationFormWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.JobApplicationFormWeb.props",
+      "PackagePath": "buildTransitive\\JobApplicationFormWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
